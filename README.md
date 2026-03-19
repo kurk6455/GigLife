@@ -103,7 +103,7 @@ $$P_w = (B \times Z_r \times W_f) - (L_d + S_s)$$
 
 ---
 
-## 🔄 User Flow (Demo)
+## 🔄 User Flow 
 
 ![User Flow Diagram](./docs/images/userflow.png)
 
@@ -118,7 +118,7 @@ $$P_w = (B \times Z_r \times W_f) - (L_d + S_s)$$
 
 ---
 
-## 🏗️ System Architecture (Demo)
+## 🏗️ System Architecture 
 
 ![System Architecture](./docs/images/system-architecture.png)
 
@@ -136,9 +136,9 @@ $$P_w = (B \times Z_r \times W_f) - (L_d + S_s)$$
 
 | Component | Type | Purpose | Inputs | Output | Action |
 | --- | --- | --- | --- | --- | --- |
-| **🔹 Dynamic Pricing Engine** | Regression Model | Calculate weekly premium | Weather forecast, Zone risk score, Worker history | Personalized premium | Apply to subscription |
-| **🔹 Fraud Guard** | Anomaly Detection | Detect fraud & GPS spoofing | Transaction patterns, GPS coordinates | Fraud Score (0–1) | Block payout if > 0.8 |
-| **🔹 Risk Modeling** | Time-Series Forecasting | Predict claim volume | Historical claims, Weather trends | Estimated loss ratio | Adjust reserves |
+| **Dynamic Pricing Engine** | Regression Model | Calculate weekly premium | Weather forecast, Zone risk score, Worker history | Personalized premium | Apply to subscription |
+| **Fraud Guard** | Anomaly Detection | Detect fraud & GPS spoofing | Transaction patterns, GPS coordinates | Fraud Score (0–1) | Block payout if > 0.8 |
+| **Risk Modeling** | Time-Series Forecasting | Predict claim volume | Historical claims, Weather trends | Estimated loss ratio | Adjust reserves |
 
 ---
 
